@@ -1,7 +1,7 @@
 import requests
 import json
-url = "http://23.172.40.177:8000/translate"
-#url = "http://104.160.19.60:8000/translate"
+url = "http://ip:8000/translate"
+#https://github.com/xiaozhou26/deeplx-pro
 def invoke_deeplx_api(text):
 
     payload = json.dumps({
